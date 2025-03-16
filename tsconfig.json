@@ -6,7 +6,7 @@
       "@src/*": ["src/*"] // 确保路径别名指向正确目录
     },
     "emitDeclarationOnly": true, // 仅生成声明文件
-    "allowImportingTsExtensions": false, // 允许导入 TypeScript 扩展名
+    "allowImportingTsExtensions": true, // 允许导入 TypeScript 扩展名
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
